@@ -3,7 +3,7 @@ import HomePage from './../views/HomePage.vue';
 import AboutUs from './../views/AboutUs.vue';
 import ContactUs from './../views/ContactUs.vue';
 import LoginPage from './../views/LoginPage.vue';
-import Community from './../views/Community.vue';
+import CommunityPage from './../views/CommunityPage.vue';
 import SignUp from './../views/SignUp.vue'
 
 const routes = [
@@ -35,7 +35,7 @@ const routes = [
     {
         path: '/community',
         name: 'community',
-        component: Community
+        component: CommunityPage
     }
 ];
 
