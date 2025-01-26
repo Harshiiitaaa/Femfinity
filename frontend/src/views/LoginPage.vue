@@ -39,7 +39,7 @@
               </div>
               <div class="text-center">
                 <p class="text-secondary">
-                  Don't have an account? <a href="#" class="text-dark-pink">Sign up</a>
+                  Don't have an account? <a href="/signup" class="text-dark-pink">Sign up</a>
                 </p>
               </div>
             </form>
