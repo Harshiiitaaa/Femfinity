@@ -75,6 +75,14 @@
                 <button type="submit" class="btn btn-gradient w-100">Sign Up</button>
               </div>
             </form>
+
+            <!-- Login Option -->
+            <div class="text-center mt-4">
+              <p class="text-secondary">
+                Already have an account?
+                <router-link to="/login" class="text-dark-pink font-weight-bold">Log In</router-link>
+              </p>
+            </div>
           </div>
         </section>
       </div>
@@ -130,12 +138,8 @@ export default {
   color: #d63384;
 }
 
-.text-pink-700 {
-  color: #c2185b;
-}
-
-.text-pink-500 {
-  color: #ec407a;
+.text-secondary {
+  color: #6c757d;
 }
 
 /* Sign Up Section */
@@ -191,6 +195,10 @@ export default {
 
 .btn-gradient:hover {
   background-color: #d63384;
+}
+
+.text-center p {
+  font-size: 0.95rem;
 }
 
 /* Animations for elements */
