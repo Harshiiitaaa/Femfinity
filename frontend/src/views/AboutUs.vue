@@ -5,64 +5,83 @@
 
     <!-- Main Content -->
     <main class="min-vh-100 bg-light-pink text-dark-gray py-5">
-      <div class="container text-center">
-        <h1 class="display-4 text-pink-700 mb-4">About Us</h1>
-        <p class="lead text-secondary mb-5">
-          Welcome to Femfinity – a platform dedicated to empowering women to take control of their health.
-        </p>
-        
-        <section>
-          <h2 class="h3 font-weight-bold text-pink-700 mb-4">Our Journey</h2>
-          <p class="text-secondary mb-4">
-            Femfinity was born out of the desire to create something truly meaningful for women everywhere. We saw a gap in the health space, where women often lacked tools to effectively monitor their well-being and make informed decisions about their health. What started as an idea between passionate individuals has transformed into a mission to bring predictive technology, health insights, and a sense of community to women.
+      <div class="container">
+        <!-- About Us Header -->
+        <section class="about-us-header text-center">
+          <h1 class="display-4 text-dark-pink mb-4 fadeInUp">About Us - Femfinity</h1>
+          <p class="lead text-secondary mb-5 fadeInUp" style="animation-delay: 0.3s;">
+            Empowering women through technology, innovation, and creativity.
           </p>
+        </section>
 
-          <h3 class="h4 font-weight-bold text-pink-700 mb-4">What We’re Solving</h3>
-          <p class="text-secondary mb-4">
-            Women frequently encounter challenges in identifying potential health issues at an early stage due to a lack of tools designed to address their specific health concerns. These challenges are compounded by the absence of accessible platforms that facilitate consistent symptom tracking, provide meaningful insights, and offer personalized guidance.
-          </p>
-          <p class="text-secondary mb-4">
-            Women’s health, which often involves complex and interconnected physical, emotional, and hormonal factors, requires a holistic approach that goes beyond basic symptom management. The inability to monitor their health effectively can lead to delays in seeking medical attention, worsening conditions, and heightened stress.
-          </p>
-          <p class="text-secondary mb-4">
-            This is where Femfinity steps in. We offer a comprehensive solution that integrates predictive technology for early illness detection with features like health journaling and tailored advice. Our platform empowers women to take charge of their well-being and provides a safe, supportive space to track, understand, and improve their overall health in a way that resonates with their unique experiences and needs.
-          </p>
-
-          <h3 class="h4 font-weight-bold text-pink-700 mb-4">Meet the Dream Team</h3>
+        <!-- Team Section -->
+        <section class="team-section text-center">
+          <h2 class="text-dark-pink mb-4 fadeInUp">Meet Our Team</h2>
           <div class="row">
-            <div class="col-md-3 mb-4">
-              <div class="card shadow-sm border-0 p-3">
-                <h5 class="text-dark-pink font-weight-bold">Raghvi Gupta</h5>
-                <p class="text-secondary">The go-getter, always thinking ahead, and a constant source of energy. She brings the spark that gets things rolling!</p>
+            <!-- Team Member: Raghvi Gupta -->
+            <div class="col-md-3">
+              <div class="team-member bg-white p-4 rounded shadow-lg fadeInUp">
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Raghvi Gupta"
+                  class="team-member-img mb-3 rounded-circle"
+                />
+                <h4 class="text-dark-pink">Raghvi Gupta</h4>
+                <p class="text-secondary">Lead Developer</p>
+                <p class="text-dark-gray">
+                  Passionate about coding and problem-solving, Raghvi leads the tech side of Femfinity.
+                </p>
               </div>
             </div>
-            <div class="col-md-3 mb-4">
-              <div class="card shadow-sm border-0 p-3">
-                <h5 class="text-dark-pink font-weight-bold">Nishika Agarwal</h5>
-                <p class="text-secondary">The problem-solver with a sharp mind. When things seem complicated, she’s the one figuring out how to make it all work smoothly.</p>
+
+            <!-- Team Member: Nishika Agarwal -->
+            <div class="col-md-3">
+              <div class="team-member bg-white p-4 rounded shadow-lg fadeInUp">
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Nishika Agarwal"
+                  class="team-member-img mb-3 rounded-circle"
+                />
+                <h4 class="text-dark-pink">Nishika Agarwal</h4>
+                <p class="text-secondary">UI/UX Designer</p>
+                <p class="text-dark-gray">
+                  Nishika brings creative designs to life, ensuring our platform is user-friendly and beautiful.
+                </p>
               </div>
             </div>
-            <div class="col-md-3 mb-4">
-              <div class="card shadow-sm border-0 p-3">
-                <h5 class="text-dark-pink font-weight-bold">Ishita Tayal</h5>
-                <p class="text-secondary">The creative heart of Femfinity. If you can imagine it, she’s the one who brings it to life with both tech and design flair.</p>
+
+            <!-- Team Member: Ishita Tayal (User) -->
+            <div class="col-md-3">
+              <div class="team-member bg-white p-4 rounded shadow-lg fadeInUp">
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Ishita Tayal"
+                  class="team-member-img mb-3 rounded-circle"
+                />
+                <h4 class="text-dark-pink">Ishita Tayal</h4>
+                <p class="text-secondary">Content Strategist</p>
+                <p class="text-dark-gray">
+                  As a content strategist, Ishita ensures our messages are clear, impactful, and inspiring.
+                </p>
               </div>
             </div>
-            <div class="col-md-3 mb-4">
-              <div class="card shadow-sm border-0 p-3">
-                <h5 class="text-dark-pink font-weight-bold">Harshita Garg</h5>
-                <p class="text-secondary">The quiet force behind the scenes. She’s the calm in the storm, making sure everything runs just as it should.</p>
+
+            <!-- Team Member: Harshita Garg -->
+            <div class="col-md-3">
+              <div class="team-member bg-white p-4 rounded shadow-lg fadeInUp">
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Harshita Garg"
+                  class="team-member-img mb-3 rounded-circle"
+                />
+                <h4 class="text-dark-pink">Harshita Garg</h4>
+                <p class="text-secondary">Project Manager</p>
+                <p class="text-dark-gray">
+                  Harshita keeps everything running smoothly, ensuring that projects are delivered on time and on budget.
+                </p>
               </div>
             </div>
           </div>
-
-          <h3 class="h4 font-weight-bold text-pink-700 mb-4">What Drives Us</h3>
-          <p class="text-secondary mb-4">
-            Each one of us at Femfinity brings our own unique spark to the table, and together, we share a simple belief: empowering women through better health is more than just a mission. It’s our passion. It’s what gets us excited to come to work every day, to push boundaries, and to make a real difference.
-          </p>
-          <p class="text-secondary mb-4">
-            We’re not just a team; we’re a family working towards a common goal: to make every woman feel strong, informed, and in control of her health. And we believe that with the right tools, support, and knowledge, every woman can achieve just that.
-          </p>
         </section>
       </div>
     </main>
@@ -107,31 +126,65 @@ export default {
   color: #ec407a;
 }
 
-.btn-gradient {
-  background: linear-gradient(135deg, #f06292, #d63384); /* Pink Gradient */
-  color: #ffffff;
+/* About Us Section */
+.about-us-header {
+  margin-bottom: 3rem;
 }
 
-.btn-gradient:hover {
-  background: linear-gradient(135deg, #ec407a, #c2185b); /* Darker Pink Gradient */
-  color: #ffffff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+.about-us-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
-.card {
-  background-color: #ffffff;
-  border-radius: 10px;
-  transition: transform 0.3s, box-shadow 0.3s;
+.about-us-header p {
+  font-size: 1.25rem;
 }
 
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+.team-section {
+  margin-top: 3rem;
+}
+
+.team-member {
+  margin-bottom: 2rem;
+}
+
+.team-member-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.team-member h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.team-member p {
+  font-size: 1rem;
+}
+
+/* Animations for elements */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
 }
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
-  .card {
+  .team-member {
     margin-bottom: 1.5rem;
   }
 }
