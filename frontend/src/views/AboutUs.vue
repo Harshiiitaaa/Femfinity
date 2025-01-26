@@ -22,7 +22,7 @@
             <div class="col-md-3">
               <div class="team-member bg-white p-4 rounded shadow-lg fadeInUp">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="@/assets/raghvi.jpg"
                   alt="Raghvi Gupta"
                   class="team-member-img mb-3 rounded-circle"
                 />
@@ -38,7 +38,7 @@
             <div class="col-md-3">
               <div class="team-member bg-white p-4 rounded shadow-lg fadeInUp">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="@/assets/nishika.jpg"
                   alt="Nishika Agarwal"
                   class="team-member-img mb-3 rounded-circle"
                 />
@@ -54,7 +54,7 @@
             <div class="col-md-3">
               <div class="team-member bg-white p-4 rounded shadow-lg fadeInUp">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="@/assets/ishita.jpeg"
                   alt="Ishita Tayal"
                   class="team-member-img mb-3 rounded-circle"
                 />
@@ -70,7 +70,7 @@
             <div class="col-md-3">
               <div class="team-member bg-white p-4 rounded shadow-lg fadeInUp">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="@/assets/harshita.jpg"
                   alt="Harshita Garg"
                   class="team-member-img mb-3 rounded-circle"
                 />
@@ -118,14 +118,6 @@ export default {
   color: #d63384;
 }
 
-.text-pink-700 {
-  color: #c2185b;
-}
-
-.text-pink-500 {
-  color: #ec407a;
-}
-
 /* About Us Section */
 .about-us-header {
   margin-bottom: 3rem;
@@ -146,6 +138,10 @@ export default {
 
 .team-member {
   margin-bottom: 2rem;
+  height: 400px; /* Consistent height for all cards */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .team-member-img {
@@ -153,6 +149,7 @@ export default {
   height: 150px;
   object-fit: cover;
   border-radius: 50%;
+  margin: 0 auto;
 }
 
 .team-member h4 {
@@ -162,6 +159,14 @@ export default {
 
 .team-member p {
   font-size: 1rem;
+}
+
+.team-member .text-secondary {
+  margin-bottom: 0.5rem;
+}
+
+.team-member p:last-child {
+  margin-top: auto;
 }
 
 /* Animations for elements */
