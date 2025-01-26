@@ -95,13 +95,15 @@
               <select
                 class="form-select"
                 v-model="form.socialMediaCompare"
-                required>
+                required
+              >
                 <option value="" disabled selected>Select an option</option>
-                <option value="never">Never</option>
-                <option value="rarely">Rarely</option>
-                <option value="sometimes">Sometimes</option>
-                <option value="often">Often</option>
-                <option value="always">Always</option>
+                <option value="never">never</option>
+                <option value="rarely">rarely</option>
+                <option value="sometimes">sometimes</option>
+                <option value="often">often</option>
+                <option value="always">always</option>
+                
 
               </select>
             </div>
@@ -202,6 +204,7 @@ export default {
         weight: "",
         bodyImageWorry: "",
         socialMediaHours: "",
+        socialMediaCompare: "",
         workoutFrequency: "",
         diet: "",
         validationNeed: "",
@@ -219,9 +222,9 @@ export default {
           "what's your weight range?": [this.form.weight],
           "how often do you worry about your body image?": [this.form.bodyImageWorry],
           "how many hours do you spend on social media each day?": [this.form.socialMediaHours],
-          "how often do you compare your appearance to others on social media or in real life?": [this.form.workoutFrequency],
-          "do you work out regularly?": [this.form.diet],
-          "do you follow a specific diet?": [this.form.validationNeed],
+          "how often do you compare your appearance to others on social media or in real life?": [this.form.socialMediaCompare],
+          "do you work out regularly?": [this.form.workoutFrequency],
+          "do you follow a specific diet?": [this.form.diet],
           "do you feel that you need validation in your life?": [this.form.validationNeed],
         };
 
