@@ -5,6 +5,7 @@ import ContactUs from './../views/ContactUs.vue';
 import LoginPage from './../views/LoginPage.vue';
 import CommunityPage from './../views/CommunityPage.vue';
 import SignUp from './../views/SignUp.vue'
+import SelfEsteem from './../views/user/SelfEsteem.vue'
 
 const routes = [
     {
@@ -36,6 +37,11 @@ const routes = [
         path: '/community',
         name: 'community',
         component: CommunityPage
+    },
+    {
+        path: '/user/selfesteem',
+        name: 'selfesteem',
+        component: SelfEsteem
     }
 ];
 
