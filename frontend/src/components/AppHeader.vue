@@ -25,7 +25,7 @@
           <li class="nav-item">
             <a
               class="nav-link text-white hover:text-pink-300 transition duration-300 ease-in-out"
-              href="/about-us"
+              href="/about"
             >
               <i class="bi bi-info-circle"></i> About Us
             </a>
@@ -41,7 +41,7 @@
           <li class="nav-item">
             <a
               class="nav-link text-white hover:text-pink-300 transition duration-300 ease-in-out"
-              href="/contact-us"
+              href="/contact"
             >
               <i class="bi bi-envelope"></i> Contact Us
             </a>
